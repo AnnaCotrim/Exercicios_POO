@@ -1,0 +1,29 @@
+package Fatec;
+
+public class Exercicio_A {
+	
+	public static void main(String[] args) {
+		// inicia variaveis 
+		public double x , y;
+		// inicia default 
+		Ponto(){
+			this.x = (1,1);
+			this.y = (1,1)
+		}
+		//recebe ordenada e abscissa
+		Ponto(double x , double y){
+			this.x = x;
+			this.y = y
+		}
+		// cria clone do ponto dado
+		Ponto(Ponto P){
+			this.x = P.x;
+			this.y = P.y;
+		}
+		
+		
+		
+		
+	
+}
+}

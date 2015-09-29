@@ -1,0 +1,14 @@
+package Fatec;
+
+public class Main_exA {
+	public static void main(String[] args) {
+		Ponto A = new Ponto();
+		Ponto B = new Ponto(3,4);
+		
+		A.imprimePonto();
+		
+		
+		
+		
+	}
+}
