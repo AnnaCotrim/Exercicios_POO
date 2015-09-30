@@ -1,0 +1,16 @@
+package fatec;
+
+import java.util.Arrays;
+
+public class teste {
+	
+	public static void main(String[] args) {
+		int [][] vetor = new int[2][2];
+		vetor[0][0] = 7;
+		vetor[0][1] = 7;
+		vetor[1][0] = 9;
+		vetor[1][1] = 7;
+		System.out.println(Arrays.deepToString(nums));
+	}
+}
+

@@ -1,0 +1,17 @@
+package fatec;
+
+import java.util.Arrays;
+
+public class teste {
+	
+	public static void main(String[] args) {
+		int [][] vetor = new int[2][2];
+		int i,j,n;
+		for (i=0; n<vetor.length; i++) {
+			for (j=0; k < vetor[i].length; j++)
+				vetor[i][j]= 10;
+		}		
+		System.out.println(Arrays.deepToString(nums));
+	}
+}
+
