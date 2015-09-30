@@ -1,0 +1,21 @@
+package fatec;
+
+public class Circulo {
+	
+	private double raio;
+	private Ponto centro;
+	private static double pi = 3.14;
+	
+	Circulo(){
+		this.raio = 1.0;
+		this.centro = new Ponto(0.0,0.0);
+		
+	}
+	Circulo(double raio, Ponto centro){
+		this.raio = raio;
+		this.centro = centro;
+	}
+	public static void main(String[] args) {
+		
+	}
+}

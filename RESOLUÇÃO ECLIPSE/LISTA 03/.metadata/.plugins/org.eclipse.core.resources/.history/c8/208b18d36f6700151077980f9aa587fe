@@ -1,0 +1,46 @@
+package fatec;
+
+public class Circulo {
+	
+	private double raio;
+	private Ponto centro;
+	private static double pi = 3.14;
+	//construtor default
+	Circulo(){
+		this.raio = 1.0;
+		this.centro = new Ponto(0.0,0.0);
+		
+	}
+	//getters and setters
+	public double getRaio() {
+		return raio;
+	}
+	public void setRaio(double raio) {
+		this.raio = raio;
+	}
+	public Ponto getCentro() {
+		return centro;
+	}
+	public void setCentro(Ponto centro) {
+		this.centro = centro;
+	}
+	public static double getPi() {
+		return pi;
+	}
+	public static void setPi(double pi) {
+		Circulo.pi = pi;
+	}
+	//construtor com dados recebidos
+	Circulo(double raio, Ponto centro){
+		this.raio = raio;
+		this.centro = centro;
+	}
+	public void imprimeCirculo(){
+		System.out.println("Seu circulo possui raio " + raio + " e seu centro fica no ponto " );
+		this.centro.imprimePonto();
+	}
+	public void aumentaCirculo(){
+		this.raio = this.raio + 1;
+	}
+
+}
